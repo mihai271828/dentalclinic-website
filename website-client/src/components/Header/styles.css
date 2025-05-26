@@ -1,0 +1,25 @@
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+  background-color: #005f73;
+  color: #ffffff;
+}
+
+.site-header__logo h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.site-header__nav a {
+  margin-left: 24px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.site-header__nav a.active {
+  border-bottom: 2px solid #94d2bd;
+  padding-bottom: 3px;
+}
