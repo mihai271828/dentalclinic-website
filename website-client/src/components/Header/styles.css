@@ -5,21 +5,62 @@
   padding: 16px 32px;
   background-color: #005f73;
   color: #ffffff;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
 .site-header__logo h1 {
   margin: 0;
   font-size: 24px;
+  font-weight: 700;
+}
+
+.site-header__nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
 .site-header__nav a {
-  margin-left: 24px;
   color: #ffffff;
   text-decoration: none;
   font-weight: 500;
+  padding: 8px 0;
+  border-bottom: 2px solid transparent;
+}
+
+.site-header__nav a:hover {
+  color: #94d2bd;
 }
 
 .site-header__nav a.active {
-  border-bottom: 2px solid #94d2bd;
-  padding-bottom: 3px;
+  border-bottom-color: #94d2bd;
+  color: #94d2bd;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 20px;
+  }
+  
+  .site-header__nav {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+  
+  .site-header__nav a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .site-header__nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
 }
