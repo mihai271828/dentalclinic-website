@@ -4,7 +4,8 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use App\Models\ContactMessage;
-use Illuminate\Http\Request;
+use App\Http\Requests\StoreContactMessageRequest;    // ← import this
+use Illuminate\Http\JsonResponse;  
 
 class ContactMessageController extends Controller
 {
@@ -21,6 +22,7 @@ class ContactMessageController extends Controller
      */
     public function store(StoreContactMessageRequest $request): JsonResponse
     {
+        
         $msg = ContactMessage::create($request->validated());
 
          return response()->json([
