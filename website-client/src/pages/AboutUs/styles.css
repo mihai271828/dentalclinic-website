@@ -1,0 +1,34 @@
+.despre{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.about-img{
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+    border-radius: 55px;
+}
+
+.about-img img{
+    border-radius: 35px;
+    object-fit: cover;
+}
+
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+padding: 10px;
+  color: #1e293b;
+}
+.about-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.about-text p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #64748b;
+}

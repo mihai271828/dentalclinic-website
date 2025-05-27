@@ -1,5 +1,3 @@
-// src/page-layout.jsx
-import React from 'react'
 import { Outlet, useRouteError, isRouteErrorResponse } from 'react-router-dom'
 
 import Header from '../components/Header'
@@ -44,7 +42,7 @@ export default function PageLayout() {
     <>
       <Header />
 
-      <main style={{ minHeight: '70vh', padding: '1rem' }}>
+      <main >
         <Outlet />
       </main>
 

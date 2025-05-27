@@ -5,7 +5,7 @@ import {
   Route,
   RouterProvider
 } from 'react-router-dom'
-import PageLayout, { loader, MainErrorBoundary } from './page-layout.jsx'
+import PageLayout, { loader,MainErrorBoundary } from './page-layout.jsx'
 import Home from './Home'
 import Servicii from './Servicii'
 import AboutUs from './AboutUs'
@@ -18,7 +18,7 @@ const router = createBrowserRouter(
       path="/"
       Component={PageLayout}
       loader={loader}
-      ErrorBoundary={MainErrorBoundary}
+      MainErrorBoundary={MainErrorBoundary}
     >
       <Route index Component={Home} />
       <Route path="despre-noi" Component={AboutUs} />

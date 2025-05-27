@@ -1,0 +1,57 @@
+.home-page{
+    display: flex;
+    flex-direction: column;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+  background: linear-gradient(135deg, #0891b2 0%, #0e7490 50%, #155e75 100%);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+.hero h1 {
+    
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 40px;
+
+}
+.btn-primary {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  background: white;
+  color: #0891b2;
+  padding: 15px 35px;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.services-preview{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: x-large;
+}
+.home-page .services-preview .service-card{
+    display: flex;
+    flex-direction: row;
+}
+.home-page .services-preview .service-card .description{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.home-page .services-preview .service-card .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+

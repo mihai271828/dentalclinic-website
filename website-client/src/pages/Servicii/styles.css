@@ -1,0 +1,39 @@
+.services-page {
+  padding: 80px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.services-page h1 {
+  font-size: 2.5rem;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+}
+
+.services-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.services-table th,
+.services-table td {
+  border: 1px solid #e2e8f0;
+  padding: 12px 15px;
+}
+
+.services-table th {
+  background-color: #0891b2;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.services-table tbody tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+.services-table tbody tr:hover {
+  background-color: #e2eff5;
+}
