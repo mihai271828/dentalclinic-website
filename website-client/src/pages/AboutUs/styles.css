@@ -1,11 +1,17 @@
 .despre{
-    display: flex;
-    flex-direction: row;
-    flex: 1;
-}
 
+    display: flex;
+    flex-direction: column;
+    background-color: #ececec;
+}
+.despre .aboutus{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
 .about-img{
     display: flex;
+    margin-left: 80px;
     align-items: stretch;
     justify-content: stretch;
     border-radius: 55px;
@@ -14,13 +20,15 @@
 .about-img img{
     border-radius: 35px;
     object-fit: cover;
+    width: 100%;
 }
 
 
 .about-text {
   display: flex;
   flex-direction: column;
-padding: 10px;
+  margin-left: 80px;
+  padding: 10px;
   color: #1e293b;
 }
 .about-text h2 {
@@ -31,4 +39,33 @@ padding: 10px;
   font-size: 1.2rem;
   line-height: 1.8;
   color: #64748b;
+}
+
+.butonul-magic{
+  display: flex;
+  align-self: center;
+  margin-top: 40px;
+  font-size: 2.5rem;
+  background-color: #005f73;
+  color: white;
+  padding: 0 15px 0 15px;
+  border-radius: 20px;
+}
+
+.reviews{
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  gap: 220px;
+}
+.reviewList{
+  margin-left: 80px;
+}
+
+.reviewForm{
+  display: flex;
+  align-self: center;
+  max-width: 500px;
+  width: 100%;
+  margin-bottom: 20px;
 }

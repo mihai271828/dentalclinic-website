@@ -41,17 +41,25 @@
 .home-page .services-preview .service-card{
     display: flex;
     flex-direction: row;
+    gap: 20px;
 }
+
+.home-page .services-preview .service-card .title{
+    display: flex;
+    align-items: center;
+        font-weight: bold;
+    margin: 24px 0px 24px 0px;
+}
+
+
 .home-page .services-preview .service-card .description{
     display: flex;
     align-items: center;
-    margin-left: 15px;
 }
 
 .home-page .services-preview .service-card .icon{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
 }
 

@@ -13,6 +13,7 @@ const tabelServicii = [
 
 export default function Servicii() {
   return (
+    <div className='tarifs-page'>
     <section className="services-page">
       <h1>Servicii &amp; Tarife</h1>
       <table className="services-table">
@@ -32,6 +33,7 @@ export default function Servicii() {
         </tbody>
       </table>
     </section>
+    </div>
   );
 }
 
