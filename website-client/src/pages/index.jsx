@@ -1,4 +1,3 @@
-import React from 'react'
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -11,6 +10,7 @@ import Servicii from './Servicii'
 import AboutUs from './AboutUs'
 import Contact from './Contact'
 import NotFound from './NotFound'
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(
